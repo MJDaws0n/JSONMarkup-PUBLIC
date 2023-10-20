@@ -1,0 +1,461 @@
+{
+    "website": {
+      "name": "JSONMarkup Example site",
+      "description": "This is an example site for JSONMarkup",
+      "build": "v1.0",
+      "lang": "en",
+      "title": "JSONMarkup Example site",
+      "external_scripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+        "/general/assets/example.js"
+      ],
+      "external_styles": [
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "/general/assets/example.css"
+      ],
+      "viewport": "width=device-width, initial-scale=1.0",
+      "charset": "UTF-8",
+      "custom_head_values": [
+        "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+        "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
+        "<link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Tilt+Neon&display=swap\" rel=\"stylesheet\">"
+      ],
+      "body": [
+        {
+          "header": {
+            "type": 1,
+            "content": [
+              {
+                "string": {
+                  "text": "Welcome to JSONMarkup"
+                }
+              }
+            ],
+            "color": "black",
+            "background_color": "blue",
+            "margin": "0 0 10px 0",
+            "text_align": "center",
+            "font_family": "monospace",
+            "font_size": "50px",
+            "identifiers": [
+              "title",
+              "example"
+            ],
+            "class_list": [
+              "titleClass"
+            ],
+            "id": "title",
+            "custom_styles": [
+              "line-height: 1.5",
+              "display: block"
+            ]
+          }
+        },
+        {
+          "paragraph": {
+            "content": [
+              {
+                "string": {
+                  "text": "This is a simple bit of software that lets you create websites using JSON. It is not recomended for general use, but instead for code generation from software. So for example a website builder may use the syntax of JSONMarkup and then use this software to convert it to working HTML, CSS and JS.\n\n \\n also will add a new line.\n\n"
+                }
+              },
+              {
+                "string": {
+                  "text": "There is some more text here. "
+                }
+              },
+              {
+                "anchor": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "This is a link embeded into a paragraph"
+                      }
+                    }
+                  ],
+                  "href": "https://youtube.com",
+                  "open": "new_tab",
+                  "color": "blue",
+                  "text_align": "left",
+                  "font_family": "monospace",
+                  "font_size": "20px"
+                }
+              },
+              {
+                "string": {
+                  "text": " and it works. It will redirect into another tab"
+                }
+              }
+            ],
+            "color": "black",
+            "background_color": "none",
+            "text_align": "left",
+            "font_family": "monospace",
+            "font_size": "20px"
+          }
+        },
+        {
+          "anchor": {
+            "content": [
+              {
+                "string": {
+                  "text": "This another link."
+                }
+              }
+            ],
+            "href": "/",
+            "open": "new_tab",
+            "color": "blue",
+            "text_align": "left",
+            "font_family": "monospace",
+            "font_size": "20px"
+          }
+        },
+        {
+          "paragraph": {
+            "content": [
+              {
+                "string": {
+                  "text": " It is not embeded into the text this time. It is set as it's own element. It redirect in current tab."
+                }
+              }
+            ],
+            "color": "black",
+            "background_color": "none",
+            "text_align": "left",
+            "font_family": "monospace",
+            "font_size": "20px"
+          }
+        },
+        {
+          "container": {
+            "sections": [
+              {
+                "paragraph": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "Inner section one"
+                      }
+                    }
+                  ],
+                  "color": "black",
+                  "background_color": "none",
+                  "text_align": "center",
+                  "font_family": "monospace",
+                  "font_size": "20px",
+                  "custom_styles": [
+                    "border: 1px solid black"
+                  ]
+                }
+              },
+              {
+                "paragraph": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "Inner section two"
+                      }
+                    }
+                  ],
+                  "color": "black",
+                  "background_color": "none",
+                  "text_align": "center",
+                  "font_family": "monospace",
+                  "font_size": "20px",
+                  "custom_styles": [
+                    "border: 1px solid black"
+                  ]
+                }
+              },
+              {
+                "paragraph": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "Inner section three"
+                      }
+                    }
+                  ],
+                  "color": "black",
+                  "background_color": "none",
+                  "text_align": "center",
+                  "font_family": "monospace",
+                  "font_size": "20px",
+                  "custom_styles": [
+                    "border: 1px solid black"
+                  ]
+                }
+              },
+              {
+                "container": {
+                  "sections": [
+                    {
+                      "paragraph": {
+                        "content": [
+                          {
+                            "string": {
+                              "text": "Inner section four - one"
+                            }
+                          }
+                        ],
+                        "color": "black",
+                        "background_color": "none",
+                        "text_align": "center",
+                        "font_family": "monospace",
+                        "font_size": "20px",
+                        "custom_styles": [
+                          "border: 1px solid black"
+                        ]
+                      }
+                    },
+                    {
+                      "paragraph": {
+                        "content": [
+                          {
+                            "string": {
+                              "text": "Inner section four - two"
+                            }
+                          }
+                        ],
+                        "color": "black",
+                        "background_color": "none",
+                        "text_align": "center",
+                        "font_family": "monospace",
+                        "font_size": "20px",
+                        "custom_styles": [
+                          "border: 1px solid black"
+                        ]
+                      }
+                    },
+                    {
+                      "paragraph": {
+                        "content": [
+                          {
+                            "string": {
+                              "text": "Inner section four - three"
+                            }
+                          }
+                        ],
+                        "color": "black",
+                        "background_color": "none",
+                        "text_align": "center",
+                        "font_family": "monospace",
+                        "font_size": "20px",
+                        "custom_styles": [
+                          "border: 1px solid black"
+                        ]
+                      }
+                    },
+                    {
+                      "paragraph": {
+                        "content": [
+                          {
+                            "string": {
+                              "text": "Inner section four - four"
+                            }
+                          }
+                        ],
+                        "color": "black",
+                        "background_color": "none",
+                        "text_align": "center",
+                        "font_family": "monospace",
+                        "font_size": "20px",
+                        "custom_styles": [
+                          "border: 1px solid black"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "container": {
+            "sections": [
+              {
+                "paragraph": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "By removing using containers and removing borders, you can get really nice effects"
+                      }
+                    }
+                  ],
+                  "font_size": "40px",
+                  "text_align": "center",
+                  "font_family": "'Tilt Neon', sans-serif"
+                }
+              },
+              {
+                "div": {
+                  "content": [
+                    {
+                      "image": {
+                        "src": "https://pix4free.org/assets/library/2021-01-19/originals/example.jpg",
+                        "height": "200px"
+                      }
+                    }
+                  ],
+                  "display": "grid",
+                  "justify-items": "center"
+                }
+              }
+            ],
+            "margin": "10px 0 0 0"
+          }
+        },
+        {
+          "ui": {
+            "content": [
+              {
+                "li": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "Coffee"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "li": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "Tea"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "li": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "Milk"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ol": {
+            "content": [
+              {
+                "li": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "Coffee"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "li": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "Tea"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "li": {
+                  "content": [
+                    {
+                      "string": {
+                        "text": "Milk"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "list_style": "decimal inside"
+          }
+        },
+        {
+          "container":{
+            "sections":[
+              {
+                "button":{
+                  "content":[
+                    {
+                      "string":{
+                        "text":"Click me to set text to time"
+                      }
+                    }
+                  ],
+                  "padding": "40px 100px 40px 100px",
+                  "border_radius":"20px",
+                  "border":"black 1px solid",
+                  "font_size":"40px",
+                  "attributes":[
+                    {
+                      "onmouseover":"this.style.cursor='pointer'; this.style.backgroundColor='#94bee3';"
+                    },
+                    {
+                      "onmouseout":"this.style.cursor='default'; this.style.backgroundColor='#EFEFEF';"
+                    },
+                    {
+                      "onclick":"document.getElementById('editText').textContent = new Date().toLocaleTimeString('en-US', { hour12: false });"
+                    }
+                  ]
+                }
+              },
+              {
+                "div":{
+                  "content":[
+                    {
+                      "paragraph":{
+                        "content":[
+                          {
+                            "string":{
+                              "text":"Time - "
+                            }
+                          }
+                        ],
+                        "id":"liveTime",
+                        "font_size":"40px",
+                        "margin":"auto"
+                      }
+                    }
+                  ],
+                  "display": "flex",
+                  "align-items": "center"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "paragraph":{
+            "content":[
+              {
+                "string":{
+                  "text":"Click above to set text bellow to current time"
+                }
+              }
+            ],
+            "id":"editText",
+            "margin": "20px 0 0 0",
+            "font_size":"50px"
+          }
+        }
+      ],
+      "site_styles":"/* It is recommended to include external styles rather than this */body{font-family: 'Tilt Neon', sans-serif;}",
+      "site_scripts":"// It is recommended to include external scripts rather than this\nconsole.log('Welcome to my website built using JSONMarkup');setInterval(function(){document.getElementById('liveTime').textContent = 'Time - '+new Date().toLocaleTimeString('en-US', { hour12: false });}, 500);"
+    }
+  }

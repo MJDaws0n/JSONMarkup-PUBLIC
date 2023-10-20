@@ -1,0 +1,34 @@
+<script type="module" src="../../main.js"></script>
+<script type="module">
+    import { compileWebsite } from '../../main.js';
+
+    document.addEventListener("DOMContentLoaded", function(){
+        fetch('../../general/example/example.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.status} - ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(jsonData => {
+            compileWebsite(JSON.stringify(jsonData), false, function(HTML){
+                document.getElementById('code').textContent = HTML;
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+        });
+    });
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Preview</title>
+</head>
+<body>
+    <p id="code"></p>
+</body>
+</html>

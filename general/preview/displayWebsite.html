@@ -1,9 +1,9 @@
-<script type="module" src="../../main.js"></script>
+<script type="module" src="../../main.js"></script> <!-- Modify the src to the location of the main.js file -->
 <script type="module">
-    import { compileWebsite } from '../../main.js';
+    import { compileWebsite } from '../../main.js'; // Modify the src to the location of the main.js file
 
     document.addEventListener("DOMContentLoaded", function(){
-        fetch('../../general/example/example.json')
+        fetch('../../general/example/example.json') // Modify this to the location of your JSON file
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Network response was not ok: ${response.status} - ${response.statusText}`);

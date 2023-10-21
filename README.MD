@@ -19,7 +19,7 @@ Create your main file, this will be the file that you will access to view the pa
 On the first line set `../../main.js` in `src="../../main.js"` to the correct location of the main.js file. Then, set `../../main.js` in `import { compileWebsite } from '../../main.js';` to the correct main.js file location. The main js file will be at the base of the file directory set. Modify the `../../general/example/example.json` in `fetch('../../general/example/example.json')` to the correct location of your JSON script, it can be local or a file online.
 
 ### Access the file
-To visit your site, put it on a local server or another type, and access the HTML file you created. Your site will then load, you can then make changes to your JSON file and the site will update after a refresh. JSONMarkup tends to take a second to load so you might find better speed by exporting the site to html before publishing, this gives speed, at a cost of ease of access. See how to do that 
+To visit your site, put it on a local server or another type, and access the HTML file you created. Your site will then load, you can then make changes to your JSON file and the site will update after a refresh. JSONMarkup tends to take a second to load so you might find better speed by exporting the site to html before publishing, this gives speed, at a cost of ease of access. See how to do that [here](#how-to-return-the-html-from-the-json-to-use-elsewhere)
 
 ## How to return the HTML from the JSON to use elsewhere
 ### Clone the repository

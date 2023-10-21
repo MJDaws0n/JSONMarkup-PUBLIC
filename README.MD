@@ -12,4 +12,4 @@ Navigate to your coding space. Run the following command
 `git clone https://github.com/MJDaws0n/JSONMarkup-PUBLIC.git`
 
 ## Create an index.html file
-Create your main file, this will be the file that you will access to view the page. Set the contents of the file to the contents of the example preview code located at [/general/preview/displayWebsite.html] (https://website-name.com)https://github.com/MJDaws0n/JSONMarkup-PUBLIC/blob/main/general/preview/displayWebsite.html
+Create your main file, this will be the file that you will access to view the page. Set the contents of the file to the contents of the example preview code located at [ddddd] (https://website-name.com)https://github.com/MJDaws0n/JSONMarkup-PUBLIC/blob/main/general/preview/displayWebsite.html
